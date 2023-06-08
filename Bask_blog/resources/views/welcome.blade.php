@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Bask Blog</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -14,7 +14,7 @@
   <body>
     <div id="wrapper">
       <!-- header -->
-      <header class="header">
+      <header class="header" style="background-image: url({{asset('images/photography.jpg')}});">
         <div class="header-text">
           <h1>Bask Blog</h1>
           <h4>Having latest news at your finger tips</h4>
@@ -29,10 +29,10 @@
 
         <div class="side-links">
           <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
 
@@ -58,7 +58,7 @@
         <h2 class="header-title">Latest Blog Posts</h2>
         <section class="cards-blog latest-blog">
           <div class="card-blog-content">
-            <img src="images/pic1.jpg" alt="" />
+            <img src="{{asset('images/pic1.jpg')}}" alt="" />
             <p>
               2 hours ago
               <span style="float: right">Written By TIMOTHY OJO</span>
@@ -71,7 +71,7 @@
           </div>
 
           <div class="card-blog-content">
-            <img src="images/pic2.jpg" alt="" />
+            <img src="{{asset('images/pic2.jpg')}}" alt="" />
             <p>
               23 hours ago
               <span style="float: right">Written By Karen Mwende</span>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="card-blog-content">
-            <img src="images/pic3.jpg" alt="" />
+            <img src="{{asset('images/pic3.jpg')}}" alt="" />
             <p>
               2 days ago
               <span style="float: right">Written By Stanley Ani</span>
@@ -95,7 +95,7 @@
           </div>
 
           <div class="card-blog-content">
-            <img src="images/pic4.jpg" alt="" />
+            <img src="{{asset('images/pic4.jpg')}}" alt="" />
             <p>
               3 days ago
               <span style="float: right">Written By Dominic Booth</span>
