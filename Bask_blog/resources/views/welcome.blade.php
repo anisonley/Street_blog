@@ -61,11 +61,11 @@
             <img src="images/pic1.jpg" alt="" />
             <p>
               2 hours ago
-              <span style="float: right">Written By Alphayo Wakarindi</span>
+              <span style="float: right">Written By TIMOTHY OJO</span>
             </p>
             <h4 style="font-weight: bolder">
               <a href="single-blog.html"
-                >Benefits of Getting Covid 19 Vaccination</a
+                >For the Culture</a
               >
             </h4>
           </div>
@@ -74,10 +74,10 @@
             <img src="images/pic2.jpg" alt="" />
             <p>
               23 hours ago
-              <span style="float: right">Written By Alphayo Wakarindi</span>
+              <span style="float: right">Written By Karen Mwende</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-blog.html">Top 10 Music Stories Never Told</a>
+              <a href="single-blog.html">The mentally healthy man.</a>
             </h4>
           </div>
 
@@ -85,11 +85,11 @@
             <img src="images/pic3.jpg" alt="" />
             <p>
               2 days ago
-              <span style="float: right">Written By Alphayo Wakarindi</span>
+              <span style="float: right">Written By Stanley Ani</span>
             </p>
             <h4 style="font-weight: bolder">
               <a href="single-blog.html"
-                >WRC Safari Rally Back To Kenya After 19 Years</a
+                >Love as it is</a
               >
             </h4>
           </div>
@@ -98,10 +98,10 @@
             <img src="images/pic4.jpg" alt="" />
             <p>
               3 days ago
-              <span style="float: right">Written By Alphayo Wakarindi</span>
+              <span style="float: right">Written By Dominic Booth</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-blog.html">Premier League 2021/2022 Fixtures</a>
+              <a href="single-blog.html">Inter Miami confirm STUNNING deal for Lionel Messi </a>
             </h4>
           </div>
         </section>
@@ -114,7 +114,7 @@
           <a href=""><i class="fab fa-instagram"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
         </div>
-        <small>&copy 2021 Alphayo Blog</small>
+        <small>&copy 2023 Bask Blog</small>
       </footer>
     </div>
 
