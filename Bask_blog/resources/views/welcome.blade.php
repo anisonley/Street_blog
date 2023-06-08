@@ -21,7 +21,7 @@
         <span style="float: right">Written By TIMOTHY OJO</span>
       </p>
       <h4 style="font-weight: bolder">
-        <a href="single-blog.html"
+        <a href="/single-blog"
           >For the Culture</a
         >
       </h4>
@@ -34,7 +34,7 @@
         <span style="float: right">Written By Karen Mwende</span>
       </p>
       <h4 style="font-weight: bolder">
-        <a href="single-blog.html">The mentally healthy man.</a>
+        <a href="/single-blog">The mentally healthy man.</a>
       </h4>
     </div>
 
@@ -45,7 +45,7 @@
         <span style="float: right">Written By Stanley Ani</span>
       </p>
       <h4 style="font-weight: bolder">
-        <a href="single-blog.html"
+        <a href="/single-blog"
           >Love as it is</a
         >
       </h4>
@@ -58,7 +58,7 @@
         <span style="float: right">Written By Dominic Booth</span>
       </p>
       <h4 style="font-weight: bolder">
-        <a href="single-blog.html">Inter Miami confirm STUNNING deal for Lionel Messi </a>
+        <a href="/single-blog">Inter Miami confirm STUNNING deal for Lionel Messi </a>
       </h4>
     </div>
   </section>
