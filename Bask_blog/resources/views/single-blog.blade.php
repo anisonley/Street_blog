@@ -120,7 +120,7 @@
       </a>
       <a href="">
         <div class="recommended-card">
-          <img src="{{ asset('images/oldBooks') }} alt="" loading="lazy" />
+          <img src={{ asset('images/books.jpg') }} alt="" loading="lazy" />
           <h4>
             Passing Generational Wisdom
           </h4>

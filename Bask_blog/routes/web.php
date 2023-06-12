@@ -16,7 +16,7 @@ use App\Http\Controllers\SingleBlogController;
 |
 */
 
-Route::get('/', [WelcomeController::class, 'index'])->name('welcome.index');
+Route::get('/welcome', [WelcomeController::class, 'index'])->name('welcome.index');
 
 Route::get ('/blog', [BlogController::class, 'index'])->name('blog.index');
 
@@ -24,7 +24,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 
 Route::get('/', [ContactController::class, 'index'])->name('contact.index');
 
-Route::get('/single-blog', [SingleBlogController::class, 'index'])->name('Single-blog.index');
+Route::get('/single-blog', [SingleBlogController::class, 'index'])->name('single-blog.index');
 
 Route::get('/about', function(){
   return view('about');
