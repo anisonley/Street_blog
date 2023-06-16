@@ -3,15 +3,15 @@
 @section('main')
 <main class="container">
   <section class="single-blog-post">
-    <h1>Benefits of paul's photography</h1>
+    <h1>For the Culture</h1>
 
     <p class="time-and-author">
       2 hours ago
-      <span>Written By Alphayo Wakarindi</span>
+      <span>Written By Timothy Ojo</span>
     </p>
 
     <div class="single-blog-post-ContentImage" data-aos="fade-left">
-      <img src="images/pic1.jpg" alt="" />
+      <img src="{{ asset ('images/pic1.jpg') }}" alt="" />
     </div>
 
     <div class="about-text">

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Bask Blog</title>
+    <title>Bask</title>
+    <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
     <link rel="stylesheet" href="{{asset('css/style.css')}}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      >
     />
   </head>
   <body>
@@ -27,8 +29,14 @@
             <li><a class= "{{ Request::routeIs('blog.index') ? 'active' : ' ' }}" href="{{ route('blog.index') }}">Blog</a></li>
             <li><a class= "{{ Request::routeIs('about') ? 'active' : ' ' }}" href="{{ route('about') }}">About</a></li>
             <li><a class= "{{ Request::routeIs('contact.index') ? 'active' : ' ' }}" href="{{ route('contact.index') }}">Contact</a></li>
-            <li><a class= "{{ Request::routeIs('login') ? 'active' : ' ' }}" href="{{ route('login') }}">Login</a></li>
-            <li><a class= "{{ Request::routeIs('register') ? 'active' : ' ' }}" href="{{ route('register') }}">Register</a></li>
+            @auth
+            <li><a class= "{{ Request::routeIs('dashboard') ? 'active' : ' ' }}" href="{{ route('dashboard') }}">Dashboard</a></li>    
+            @endauth
+            @guest
+             <li><a class= "{{ Request::routeIs('login') ? 'active' : ' ' }}" href="{{ route('login') }}">Login</a></li>
+             <li><a class= "{{ Request::routeIs('register') ? 'active' : ' ' }}" href="{{ route('register') }}">Register</a></li>   
+            @endguest
+            
           </ul>
         </div>
 
@@ -80,5 +88,15 @@
           document.querySelector(".sidebar").style.width = "0";
         });
     </script>
+                   <script>
+                    ClassicEditor
+                            .create( document.querySelector( '#bodyP' ) )
+                            .then( bodyP => {
+                                    console.log( bodyP );
+                            } )
+                            .catch( error => {
+                                    console.error( error );
+                            } );
+            </script>
   </body>
 </html>

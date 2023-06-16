@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\SingleBlogController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,7 +24,9 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 
 Route::get('/', [ContactController::class, 'index'])->name('contact.index');
 
-Route::get('/single-blog', [SingleBlogController::class, 'index'])->name('single-blog.index');
+Route::get('/blog/single-blog-post', [BlogController::class, 'show'])->name('single-blog-post.show');
+
+Route::get('/blog/create', [BlogController::class, 'create']) ->name('blog.create');
 
 Route::get('/about', function(){
   return view('about');

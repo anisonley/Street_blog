@@ -30,7 +30,7 @@
             <span style="float: right">Written By TIMOTHY OJO</span>
         </p>
         <h4 style="font-weight: bolder">
-            <a href="/single-blog">For the Culture</a>
+            <a href="{{ route('single-blog-post.show') }}">For the Culture</a>
         </h4>
       </div>
 
@@ -41,7 +41,7 @@
         <span style="float: right">Written By Karen Mwende</span>
         </p>
         <h4 style="font-weight: bolder">
-            <a href="/single-blog">The mentally healthy man.</a>
+            <a href="{{ route('single-blog-post.show') }}">The mentally healthy man.</a>
         </h4>
       </div>
 
@@ -52,7 +52,7 @@
             <span style="float: right">Written By Stanley Ani</span>
         </p>
         <h4 style="font-weight: bolder">
-            <a href="/single-blog">Love as it is</a>
+            <a href="{{ route('single-blog-post.show') }}">Love as it is</a>
         </h4>
       </div>
 
@@ -63,7 +63,7 @@
             <span style="float: right">Written By Dominic Booth</span>
         </p>
         <h4 style="font-weight: bolder">
-            <a href="/single-blog">Inter Miami confirm STUNNING deal for Lionel Messi </a>
+            <a href="{{ route('single-blog-post.show') }}">Inter Miami confirm STUNNING deal for Lionel Messi </a>
         </h4>
       </div>
 
@@ -74,7 +74,7 @@
           <span>Written By Bask </span>
         </p>
         <h4 style="font-weight: bolder">
-          <a href="single-blog.html">The Life of a Techie</a>
+          <a href="{{ route('single-blog-post.show') }}">The Life of a Techie</a>
         </h4>
       </div>
 
@@ -85,7 +85,7 @@
           <span>Written By Jedidiah Divine</span>
         </p>
         <h4 style="font-weight: bolder">
-          <a href="single-blog.html">The Fashionable</a>
+          <a href="{{ route('single-blog-post.show') }}">The Fashionable</a>
         </h4>
       </div>
 
